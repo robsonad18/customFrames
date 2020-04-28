@@ -1,1 +1,0 @@
-<script src="<?=ORIGEM?>/js/main.js"></script>
