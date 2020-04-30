@@ -1,19 +1,21 @@
 <?php 
 
-require __DIR__.'/vendor/autoload.php';
+include __DIR__.'/vendor/autoload.php';
 
-require __DIR__.'/Config/config.php';
+include __DIR__.'/Config/config.php';
 
-require __DIR__.'/Resource/estrutura/cabecalho.php';
+include __DIR__.'/Resource/estrutura/Cabecalho.php';
 
-require __DIR__.'/Config/css.php';
+include __DIR__.'/Config/css.php';
 
-require __DIR__.'/Resource/estrutura/header.php';
+include __DIR__.'/Config/js.php';
 
-require __DIR__.'/Resource/estrutura/menu.php';
+include __DIR__.'/Resource/estrutura/Header.php';
 
-require __DIR__.'/Resource/estrutura/banner.php';
+include __DIR__.'/Resource/estrutura/Menu.php';
 
-require __DIR__.'/Resource/estrutura/produtos.php';
+include __DIR__.'/Resource/estrutura/Banner.php';
 
-require __DIR__.'/Resource/estrutura/rodape.php';
+include __DIR__.'/Resource/estrutura/Produtos.php';
+
+include __DIR__.'/Resource/estrutura/Rodape.php';

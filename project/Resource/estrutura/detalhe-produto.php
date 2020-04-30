@@ -1,8 +1,3 @@
-<?php 
-$imagens = \App\Image::get();
-
-
-?>
 <section>
     <div>
         <div>
