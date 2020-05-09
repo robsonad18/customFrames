@@ -29,17 +29,17 @@
             return {
                 image: [{
                         item: ORIGEM + "/Resource/image/larissa.jpeg",
-                        link: 'javascript:void(0)',
+                        link: 'https://api.whatsapp.com/send?phone=997194891',
                         nome: ''
                     },
                     {
                         item: ORIGEM + "/Resource/image/leticia.jpeg",
-                        link: 'javascript:void(0)',
+                        link: 'https://api.whatsapp.com/send?phone=997194891',
                         nome: ''
                     },
                     {
                         item: ORIGEM + "/Resource/image/robson.jpeg",
-                        link: 'javascript:void(0)',
+                        link: 'https://api.whatsapp.com/send?phone=997194891',
                         nome: ''
                     }
                 ]
@@ -50,7 +50,7 @@
             <div class="fotoProduto" v-for="value in image">
                 <div class="foto1">
                     <div class="imgProduto">
-                        <a :href="value.link">
+                        <a :href="value.link" rel="nofollow" onclick="window.open(this.href,'what','width=1000,height=600,left=160,top=170');return false;">
                             <img :src="value.item" :alt="value.nome">
                         </a>
                     </div>
@@ -66,17 +66,17 @@
             return {
                 image: [{
                         item: ORIGEM + "/Resource/image/pedro.jpeg",
-                        link: 'javascript:void(0)',
+                        link: 'https://api.whatsapp.com/send?phone=997194891',
                         nome: ''
                     },
                     {
                         item: ORIGEM + "/Resource/image/juliana.jpeg",
-                        link: 'javascript:void(0)',
+                        link: 'https://api.whatsapp.com/send?phone=997194891',
                         nome: ''
                     },
                     {
                         item: ORIGEM + "/Resource/image/bia.jpeg",
-                        link: 'javascript:void(0)',
+                        link: 'https://api.whatsapp.com/send?phone=997194891',
                         nome: ''
                     },
                 ]
@@ -103,17 +103,17 @@
             return {
                 image: [{
                         item: ORIGEM + "/Resource/image/robson2.jpeg",
-                        link: 'javascript:void(0)',
+                        link: 'https://api.whatsapp.com/send?phone=997194891',
                         nome: ''
                     },
                     {
                         item: ORIGEM + "/Resource/image/bia2.jpeg",
-                        link: 'javascript:void(0)',
+                        link: 'https://api.whatsapp.com/send?phone=997194891',
                         nome: ''
                     },
                     {
                         item: ORIGEM + "/Resource/image/bia-new.jpeg",
-                        link: 'javascript:void(0)',
+                        link: 'https://api.whatsapp.com/send?phone=997194891',
                         nome: ''
                     }
                 ]
@@ -211,4 +211,11 @@
         border-radius: 30px;
         transition: 1s;
     }
+
+    @media(min-width: 1024px) {
+        .divFotos{
+            margin-left: 125px;
+        }
+    }
+
 </style>
