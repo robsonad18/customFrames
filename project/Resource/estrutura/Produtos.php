@@ -209,9 +209,8 @@
     }
 
     @media(min-width: 1024px) {
-        .divFotos{
+        .divFotos {
             margin-left: 125px;
         }
     }
-
 </style>
